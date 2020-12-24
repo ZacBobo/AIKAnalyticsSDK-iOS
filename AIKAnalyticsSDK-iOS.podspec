@@ -25,17 +25,13 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'GongM' => 'gongm@reachauto.com' }
-  s.source           = { :git => 'https://github.com/FatsoCat/AIKAnalyticsSDK-iOS/blob/main/KoraSDK.framework.zip', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/FatsoCat/AIKAnalyticsSDK-iOS', :tag => s.version }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
-  
-  s.static_framework = true
-
-  s.frameworks = 'UIKit','Foundation','CoreLocation','SystemConfiguration'
-
   s.requires_arc = true
+  s.vendored_frameworks = 'KoraSDK.framework'
+  # s.frameworks = 'Foundation'
 
 
 
