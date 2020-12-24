@@ -1,6 +1,6 @@
 //
 //  KoraAnalyticsSDK.h
-//  KoraSDK
+//  KoraAnalyticsSDK
 //
 //  Created by 杨志 on 2020/11/6.
 //  Copyright © 2020 杨志. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <KoraSDK/KAConfigOptions.h>
+#import <AIKAnalyticsSDK/KAConfigOptions.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

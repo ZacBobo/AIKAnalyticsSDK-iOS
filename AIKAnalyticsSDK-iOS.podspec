@@ -30,9 +30,9 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
   s.requires_arc = true
-  s.vendored_frameworks = 'KoraSDK.framework'
-  # s.frameworks = 'Foundation'
-
+  s.vendored_frameworks = 'AIKAnalyticsSDK.framework'
+  s.frameworks = 'Foundation','UIKit','CoreLocation','Security','CoreTelephony','SystemConfiguration','AdSupport','JavaScriptCore','WebKit'
+  s.libraries ='icucore','sqlite3'
 
 
 end

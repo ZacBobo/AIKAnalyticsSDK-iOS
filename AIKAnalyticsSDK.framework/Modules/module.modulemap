@@ -1,0 +1,6 @@
+framework module AIKAnalyticsSDK {
+  umbrella header "AIKAnalyticsSDK.h"
+
+  export *
+  module * { export * }
+}

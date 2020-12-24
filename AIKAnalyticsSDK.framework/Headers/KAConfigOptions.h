@@ -1,13 +1,13 @@
 //
 //  KAConfigOptions.h
-//  KoraSDK
+//  KoraAnalyticsSDK
 //
 //  Created by 杨志 on 2020/11/13.
 //  Copyright © 2020 杨志. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import <KoraSDK/KAConstants.h>
+#import <AIKAnalyticsSDK/KAConstants.h>
 
 @class KASecretKey;
 

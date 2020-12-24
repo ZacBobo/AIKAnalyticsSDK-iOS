@@ -1,12 +1,12 @@
 //
 //  KoraAnalyticsSDK+Track.h
-//  KoraSDK
+//  KoraAnalyticsSDK
 //
 //  Created by 杨志 on 2020/11/6.
 //  Copyright © 2020 杨志. All rights reserved.
 //
 
-#import <KoraSDK/KoraSDK.h>
+#import <AIKAnalyticsSDK/KoraAnalyticsSDK.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

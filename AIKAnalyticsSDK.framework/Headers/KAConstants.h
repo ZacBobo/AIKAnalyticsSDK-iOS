@@ -1,6 +1,6 @@
 //
 //  KDConstants.h
-//  KoraSDK
+//  KoraAnalyticsSDK
 //
 //  Created by 杨志 on 2020/11/11.
 //  Copyright © 2020 杨志. All rights reserved.
