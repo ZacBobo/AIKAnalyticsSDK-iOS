@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AIKAnalyticsSDK-iOS'
-  s.version = '5.0.0'
+  s.version = '1.0.0'
   s.summary          = 'AIKAnalyticsSDK-iOS.'
 
 # This description is used to generate tags and improve search results.
@@ -21,30 +21,21 @@ Pod::Spec.new do |s|
                         AIKAnalyticsSDK-iOS
                        DESC
 
-  s.homepage         = 'https://code.aliyun.com/hkr-app/App_IOS_HKLoginModule'
+  s.homepage         = 'https://github.com/FatsoCat/AIKAnalyticsSDK-iOS'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'GongM' => 'gongm@reachauto.com' }
-  s.source           = { :git => 'http://10.10.142.183:8083/gerrit/HKr_IOS_HKLoginModule', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/FatsoCat/AIKAnalyticsSDK-iOS/blob/main/KoraSDK.framework.zip', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.1'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'HKLoginModule/Classes/**/*'
   
   s.static_framework = true
 
-  s.resource_bundles = {
-     'HKLoginModule' => ['HKLoginModule/Assets/*.*']
-   }
+  s.frameworks = 'UIKit','Foundation','CoreLocation','SystemConfiguration'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-    s.frameworks = 'UIKit', 'Security'
-#    s.dependency 'GrowingAutoTrackKit'
-#    s.dependency 'GrowingCoreKit'
-#
-#    s.dependency 'ReactiveCocoa', '2.5'
-#    s.dependency 'SDWebImage','3.7.6'
+  s.requires_arc = true
 
 
 
