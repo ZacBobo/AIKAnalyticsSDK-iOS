@@ -28,11 +28,14 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/FatsoCat/AIKAnalyticsSDK-iOS', :tag => s.version }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '8.0'
   s.requires_arc = true
   s.vendored_frameworks = 'AIKAnalyticsSDK.framework'
   s.frameworks = 'Foundation','UIKit','CoreLocation','Security','CoreTelephony','SystemConfiguration','AdSupport','JavaScriptCore','WebKit'
   s.libraries ='icucore','sqlite3'
-
+  s.pod_target_xcconfig = {
+    'OTHER_LDFLAGS' => '-lObjC'
+  }
+  s.static_framework = true
 
 end
