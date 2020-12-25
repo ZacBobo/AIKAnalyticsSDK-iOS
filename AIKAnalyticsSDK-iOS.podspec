@@ -34,7 +34,9 @@ Pod::Spec.new do |s|
   s.frameworks = 'Foundation','UIKit','CoreLocation','Security','CoreTelephony','SystemConfiguration','AdSupport','JavaScriptCore','WebKit'
   s.libraries ='icucore','sqlite3'
   s.pod_target_xcconfig = {
-    'OTHER_LDFLAGS' => '-lObjC'
+    'OTHER_LDFLAGS' => '-lObjC',
+    'VALID_ARCHS' => 'x86_64 armv7 arm64'
+
   }
   s.static_framework = true
 
